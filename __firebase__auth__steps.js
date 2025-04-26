@@ -1,3 +1,13 @@
+/* 
+Authentication vs Authorization
+
+Authentication:
+=>কাউকে, কোন কিছু, কার কোন act (যা সঠিক) টা সত্য কিনা টা নির্ণয় করার প্রক্রিয়া 
+(give assurance)।
+
+Authorization:
+কাউকে কোন কাজ বা কোন resource ব্যাবহার করতে পারার permission দেওয়ার প্রক্রিয়া। i.e. type of user: moderator, admin, */
+
 /**
  * 1.Create projects in Firebase website and go to docs and find upper 'Go to Console'
  * 2. go to create firebase projects, then name your created project name (as same)
@@ -12,7 +22,7 @@
  * 11. now from section 1 copy and paste the import GoogleAuthProvider from web modular api.
  * 12. use the GoogleAuthProvider.
  * 13. now from section 5 call the function signInWithPopup with then and catch method  with the parameter auth & provider which will automatically import.
- * Now follow the flow from 1.0 in LogIn.jsx to show the user data in ui after login and how to logout
+ * Now follow the flow from 1.0 in LogIn.jsx, how to show the user data in ui after login and how to logout
  * todo: Pending github authentication module 49.6 to 49.7.
 
  */
