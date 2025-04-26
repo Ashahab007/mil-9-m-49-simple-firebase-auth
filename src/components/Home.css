@@ -1,0 +1,7 @@
+div a {
+  margin-left: 10px;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
